@@ -1,0 +1,5 @@
+.sideBar {
+    background-color: darkolivegreen;
+    flex-shrink: 1;
+    padding: 1rem;
+}

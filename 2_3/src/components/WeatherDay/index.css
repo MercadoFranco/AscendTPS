@@ -1,0 +1,28 @@
+.WeatherButton {
+    background-color: transparent;
+    border:0;
+    transition: all;
+    transition-duration: 200ms;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.WeatherButton:hover {
+    background-color: gray;
+}
+
+.WeatherButton:focus {
+    outline: 4px solid gray;
+}
+
+.WeatherDayNumber {
+    font-weight: bold;
+    color: white;
+}
+
+.WeatherDayIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    filter: invert(1);
+}

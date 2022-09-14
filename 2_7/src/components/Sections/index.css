@@ -1,0 +1,22 @@
+.sectionContainer {
+    display: flex;
+    min-height: 10rem;
+}
+
+.section1 {
+    background-color: blue;
+}
+
+.section2 { 
+    background-color: grey;
+}
+
+.section3 {
+    background-color: blueviolet;
+}
+
+.section {
+    padding:3rem;
+    flex:1;
+    text-align: center;
+}

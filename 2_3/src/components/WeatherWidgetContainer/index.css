@@ -1,0 +1,9 @@
+.WeatherWidget {
+    background-color: #333842;
+    min-height: 372px;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
