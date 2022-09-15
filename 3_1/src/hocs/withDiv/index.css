@@ -1,0 +1,14 @@
+.rounded {
+    border-radius: 100%;
+}
+
+.divGeneral {
+    padding: 2rem;
+    height: 10rem;
+    width: 10rem;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#282c34;
+}
