@@ -1,0 +1,30 @@
+
+.ExperimentContainer {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.ExperimentItem {
+    display: flex;
+    flex-direction: column;
+    min-height: 10rem;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    font-size: 1rem;
+}
+
+.ExperimentItemActive {
+    background-color: rgb(8, 183, 125);
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 3rem;
+    padding: 3rem;
+    row-gap: 2rem;
+}
