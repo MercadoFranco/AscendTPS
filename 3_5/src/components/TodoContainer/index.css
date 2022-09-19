@@ -1,0 +1,13 @@
+.TodoContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap:1rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 80%;
+}
+
+.Titulo {
+    color: black;
+}
