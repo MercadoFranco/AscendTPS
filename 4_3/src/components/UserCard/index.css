@@ -1,0 +1,30 @@
+.UserCard {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 3rem 6rem;
+    background-color: white;
+    border-radius: 5rem;
+    min-width: 30rem;
+}
+
+.TextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.UserText {
+    color: black;
+    margin: 0;
+    font-size: 1.9rem;
+}
+
+.UserDescription {
+    color: grey;
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}

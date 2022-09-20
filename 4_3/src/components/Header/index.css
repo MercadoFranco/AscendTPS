@@ -1,0 +1,25 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    background-color: rgb(85, 21, 21);
+    user-select: none;
+}
+
+.PageTitle {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.Nav {
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.NavLink {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
