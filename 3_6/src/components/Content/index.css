@@ -1,0 +1,5 @@
+.Content {
+    flex-grow: 1;
+    align-items: stretch;
+    background-color:#424549;
+}

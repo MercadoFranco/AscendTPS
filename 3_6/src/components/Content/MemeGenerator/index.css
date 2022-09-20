@@ -1,0 +1,54 @@
+.MemeGeneratorContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2rem;
+    flex-grow: 1;
+    row-gap: 2rem;
+}
+
+.InputContainer {
+    justify-content: space-evenly;
+}
+
+.SelectedImage {
+    height: calc(100vh - 17rem);
+}
+
+.FinalMemeContainer {
+    position: relative;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.GenericText {
+    position: absolute;
+    font-family: Impact;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    width: 95%;
+    font-size: 2.5rem;
+    word-break: initial;
+    text-shadow: 2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0px 2px 0 #000,
+        2px 0px 0 #000,
+        0px -2px 0 #000,
+        -2px 0px 0 #000,
+        2px 2px 5px #000;
+}
+
+.TopText {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.BottomText {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

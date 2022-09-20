@@ -1,0 +1,11 @@
+.Input {
+    border: 2px solid gray;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+    flex-grow: 0.2;
+    background-color: white;
+}
+
+.Input::placeholder {
+    color: gray;
+}
